@@ -1,0 +1,258 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="rikka0*2304 的个人网站 - 硬件控 / 游戏玩家 / INFP">
+  <meta name="keywords" content="rikka0*2304, 个人网站, 硬件组装, 游戏, 作品集">
+  <meta name="author" content="rikka0*2304">
+  <meta property="og:title" content="rikka0*2304 - 个人网站">
+  <meta property="og:description" content="一个热爱硬件、游戏与技术的个人空间">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#0a0a0a">
+  <link rel="icon" href="avatar.png" type="image/png">
+  <title>rikka0*2304 | 个人网站</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== 导航栏 ===== -->
+  <header class="navbar" id="navbar" role="banner">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" aria-label="回到顶部">rikka0*2304</a>
+      <nav class="nav-links" id="nav-links" role="navigation" aria-label="主导航">
+        <a href="#about" class="nav-link">关于</a>
+        <a href="#skills" class="nav-link">技能</a>
+        <a href="#contact" class="nav-link">联系</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="菜单" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== Hero 区域 ===== -->
+    <section id="hero" class="hero" aria-label="首页介绍">
+      <div class="hero-bg-pattern" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, 我是</p>
+        <h1 class="hero-name">rikka0*2304</h1>
+        <div class="hero-role">
+          <span id="typewriter" class="typewriter"></span>
+          <span class="cursor">|</span>
+        </div>
+        <p class="hero-bio">
+          一个热爱<span class="accent">硬件</span>、沉迷<span class="accent">游戏</span>、折腾<span class="accent">技术</span>的高中生。<br>
+          INFP · 双鱼座 · 对一切酷的东西充满好奇。
+        </p>
+        <div class="hero-cta">
+          <a href="#about" class="btn btn-primary">了解更多</a>
+          </div>
+      </div>
+      <a href="#about" class="scroll-indicator" aria-label="向下滚动">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M7 13l5 5 5-5M7 7l5 5 5-5"/>
+        </svg>
+      </a>
+    </section>
+
+    <!-- ===== 关于我 ===== -->
+    <section id="about" class="section about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section-title"><span class="accent">01.</span> 关于我</h2>
+        <div class="about-grid">
+          <div class="about-avatar-wrapper">
+            <img src="avatar.png" alt="rikka0*2304" class="about-avatar-img">
+            <!-- 个人信息卡片 -->
+            <div class="about-info-cards">
+              <div class="info-card">
+                <span class="info-label">MBTI</span>
+                <span class="info-value accent">INFP</span>
+              </div>
+              <div class="info-card">
+                <span class="info-label">星座</span>
+                <span class="info-value">双鱼座</span>
+              </div>
+              <div class="info-card">
+                <span class="info-label">学历</span>
+                <span class="info-value">高中在读</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-text">
+            <p>
+              嘿嘿，我是 <span class="accent">rikka0*2304</span>，一名目前就读高一的学生。
+              对电脑硬件和游戏有着近乎偏执的热爱——我是一个<span class="accent">不折不扣的硬件控</span>。
+            </p>
+            <p>
+              从组装第一台电脑开始，我就迷上了硬件世界。无论是 CPU 的架构对比、
+              显卡的能效曲线，还是散热风道的优化方案，我都聊得来。
+              系统优化也是我的拿手好戏——让一台电脑在性能与静音之间找到完美平衡，
+              这种成就感无法替代。
+            </p>
+            <p>
+              技术方面，我熟悉<span class="accent">虚拟化操作</span>，正在入门
+              <span class="accent">Kali Linux</span> 的命令行与网络基础。
+              同时也在折腾本地高级软件部署和 AI 工具 API 的配置——
+              比如 <span class="accent">Claude Desktop</span>、<span class="accent">SiliconFlow</span> 等。
+              喜欢探索技术的边界，享受折腾的过程。
+            </p>
+            <div class="about-highlights">
+              <div class="highlight">
+                <span class="highlight-number">硬件控</span>
+                <span class="highlight-label">组装 & 优化</span>
+              </div>
+              <div class="highlight">
+                <span class="highlight-number">高一</span>
+                <span class="highlight-label">在读学生</span>
+              </div>
+              <div class="highlight">
+                <span class="highlight-number">INFP</span>
+                <span class="highlight-label">调停者</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 技能 ===== -->
+    <section id="skills" class="section skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 id="skills-title" class="section-title"><span class="accent">02.</span> 技能</h2>
+        <div class="skills-grid">
+
+          <!-- 硬件 & 装机 -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">🖥️ 硬件 & 装机</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>电脑组装</span><span>95%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 95%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>硬件选型 & 搭配</span><span>92%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 92%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>系统优化</span><span>90%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>散热 & 风道设计</span><span>85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 85%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 技术 & 工具 -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">🔡 技术 & 工具</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>虚拟化操作</span><span>85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Kali Linux</span><span>55%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 55%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>命令行 & 网络基础</span><span>50%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 50%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>HTML & CSS</span><span>40%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 40%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI & 高级工具 -->
+          <div class="skill-category">
+            <h3 class="skill-category-title">🧻 AI & 部署</h3>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>AI 工具配置</span><span>75%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 75%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Claude Desktop</span><span>70%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 70%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>API 配置 & 调用</span><span>60%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 60%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>本地服务部署</span><span>65%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="--width: 65%"></div></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== 联系我 ===== -->
+    <section id="contact" class="section contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title"><span class="accent">05.</span> 联系我</h2>
+        <p class="contact-subtitle">
+          对硬件、游戏或者技术有共同话题，<br>
+          欢迎来找我聊天，一起交流折腾经验🤗
+        </p>
+        <div class="contact-links">
+          <a href="mailto:rikka006012@gmail.com" class="contact-link" aria-label="发送邮件">
+            <div class="contact-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/>
+              </svg>
+            </div>
+            <span>Email</span>
+          </a>
+          <a href="https://github.com/Rikka-8964" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="GitHub 主页">
+            <div class="contact-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/>
+              </svg>
+            </div>
+            <span>GitHub</span>
+          </a>
+          <a href="https://x.com/Rikka8964" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="X (Twitter)">
+            <div class="contact-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4l6.5 7.5L4 20h1.5l5.5-6 4.5 6H22l-7-8.5L20 4h-1.5l-5 5.5L9.5 4H4zm2 1h2.5l10 14h-2.5L6 5z"/>
+              </svg>
+            </div>
+            <span>X</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== 页脚 ===== -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 rikka0*2304. Made with ❤️ and lots of ✨</p>
+        <button id="back-to-top" class="back-to-top" aria-label="返回顶部">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
